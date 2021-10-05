@@ -1,0 +1,144 @@
+/* navbar */
+#top_nav{
+    background-color: #daac00 ;
+    padding-left: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    padding-left: 5px;
+}
+#searchbox{
+   background-color: #fcc302;
+   color: white;
+   border: 0px;
+   border-radius: o;
+   position: relative;
+   left: 45px;
+   box-shadow: 0 0 0 #00000021;
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+}
+/* banner */
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px ;
+}
+#first{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px
+}
+#para{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#banner-btn-1 {
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin: 15px;
+}
+/* service */
+ #service-text{
+     padding-top: 10%;
+     padding-bottom: 5%;
+ }
+ #service-btn{
+      color: white;
+      background-color: #fcc302;
+      border: 2px solid #fcc302;
+ }
+ #service-img{
+     padding: 5%;
+
+ } 
+   /* counter */
+    #counter-section{
+        background-image: url("../images/man-buying-two-hot-dog-kiosk-outdoors-street-food-close-up-view.jpg");
+        padding-top: 50px;
+        padding-bottom: 70px;
+        background-position:center ;
+        background-size: cover;
+    }
+    .counter-icon{
+        font-size: 50px;
+    }
+    @media only screen and (max-width:500px){
+        .counter-icon{
+            font-size: 50px;
+        }
+
+    }
+       /* blog */
+       #blog{
+           padding-bottom: 70px;
+           padding-top: 70px;
+       }
+       #blog-title{
+           font-size: 50px;
+           font-weight: bolder;
+       }
+       #blog-p{
+           font-size: 20px;
+           margin-bottom:50px ;
+       }
+       .article-detail{
+           padding: 15px;
+           border: 1px solid rgb(185,185,185);
+           border-top: 0;
+       }
+       .article-date,.article-link{
+           color: #00bec9;
+       }
+       /* footer */
+       #footer{
+           background-color: #343434;
+           padding-top: 80px;
+           padding-bottom: 80px;
+       }
+       #footer a{
+           color: white;
+           text-decoration: none;
+       }
+       #footer-form{
+           margin-top: 10px;
+           margin-bottom: 10px;
+       }
+       #footer-search-box{
+           background-color: #fcc302;
+           color: white;
+           border: 0px;
+           padding: 10px;
+           width: 200px;
+           max-width: 500px;
+           position: relative;
+           left: 10px;
+       }
+       #footer-search-submit{
+           background-color: #00bec9;
+           color: white;
+           border: 0;
+           border-radius: 0;
+           padding: 10px 20px;
+       }
+       .social-icon{
+           font-size: 25px;
+           padding-left: 5px;
+       }
